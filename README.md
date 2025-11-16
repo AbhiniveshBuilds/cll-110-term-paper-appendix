@@ -1,9 +1,9 @@
 ﻿
 ```markdown
 # CLL-110 Term Paper Appendix  
-### *Modeling Temperature-Dependent Viscosity Effects in Crude Oil Pipeline Transport*  
-**Course:** CLL-110 (Transport Phenomena)  
-**Institution:** IIT Delhi  
+## Modeling Temperature-Dependent Viscosity Effects in Crude Oil Pipeline Transport
+Course: CLL-110 (Transport Phenomena)  
+Institution: IIT Delhi  
 
 
 ## Overview
