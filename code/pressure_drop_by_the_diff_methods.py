@@ -58,21 +58,4 @@ plt.tight_layout()
 plt.savefig("figures/pressure_drop_analytical_vs_numerical.png", dpi=300)
 plt.show()
 
-# deviation plot
 
-err_lin = (DP_lin - DP_num) / DP_num * 100
-err_louis = (DP_louis - DP_num) / DP_num * 100
-
-plt.figure(figsize=(9,6))
-plt.plot(dT, err_lin, label="Linear Model Error (%)")
-plt.plot(dT, err_louis, '--', label="Louis et al. Error (%)")
-plt.axhline(0, color='black', linewidth=0.7)
-
-plt.xlabel("Mean Temperature Rise ΔT (K)")
-plt.ylabel("Deviation from Numerical Nonlinear Model (%)")
-plt.title("Deviation of Analytical Models from Numerical Pressure Drop")
-plt.grid(True)
-plt.legend()
-plt.tight_layout()
-plt.savefig("figures/pressure_drop_error_vs_numerical.png", dpi=300)
-plt.show()
