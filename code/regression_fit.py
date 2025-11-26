@@ -25,7 +25,7 @@ lnA_fit, B_fit = popt
 
 A_fit = np.exp(lnA_fit)
 
-print("\n===== Linearized Arrhenius Fit =====")
+print("\n Linearized Arrhenius Fit ")
 
 print(f"A     = {A_fit:.4e}")
 print(f"B     = {B_fit:.2f}")
